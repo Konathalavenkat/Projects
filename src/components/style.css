@@ -23,7 +23,15 @@ body,#root,.App{
 }
 .keys{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 75% 25%;
+}
+.left{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.right{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
 }
 .key{
   color: white;
@@ -31,6 +39,7 @@ body,#root,.App{
   padding: 5px;
   text-align:center;
 }
+
 .screen{
   background-color: #172d67;
   border-top-right-radius: 20px 20px;
